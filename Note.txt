@@ -1,0 +1,13 @@
+# First, make sure you have the required tools
+sudo apt install python3-full python3-venv
+
+# Create a virtual environment in your home directory (or wherever you prefer)
+python3 -m venv ~/mediapipe_env
+
+# Activate the virtual environment
+source ~/mediapipe_env/bin/activate
+
+# Your terminal prompt should now show (mediapipe_env) to indicate the environment is active
+
+# Install MediaPipe
+pip install mediapipe
